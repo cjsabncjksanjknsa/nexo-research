@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 // ─── FONTS & GLOBAL STYLES ───────────────────────────────────────────────────
 const GlobalStyles = () => (
   <style>{`
-    @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { background: #08080E; }
 
@@ -18,7 +18,7 @@ const GlobalStyles = () => (
       --accent2: #5B8DEF;
       --gold: #F0B429;
       --red: #F87171;
-      --font-display: 'Syne', sans-serif;
+      --font-display: 'Manrope', sans-serif;
       --font-body: 'Inter', sans-serif;
     }
 
@@ -202,7 +202,7 @@ export default function NexoCompanion() {
     <div className="section">
       {/* Hero narrative */}
       <div style={{marginBottom:32}}>
-        <div style={{fontFamily:"var(--font-display)",fontSize:28,fontWeight:800,letterSpacing:"-0.5px",lineHeight:1.2,marginBottom:16,maxWidth:700}}>
+        <div style={{fontFamily:"var(--font-display)",fontSize:30,fontWeight:700,letterSpacing:"-0.3px",lineHeight:1.25,marginBottom:16,maxWidth:700}}>
           Smart money doesn't sit on the sidelines during a reset.
         </div>
         <div style={{fontSize:15,color:"rgba(255,255,255,0.55)",lineHeight:1.8,maxWidth:660}}>
